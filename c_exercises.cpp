@@ -66,7 +66,7 @@ TEST (C_Exercise, printf) {
     // This is here to help you debug
     printf(format_str, a);
 
-    // sprintf is just like printf, except it prints into the buffer in the first argument instead of to the terminal.
+    // snprintf is just like printf, except it prints into the buffer in the first argument instead of to the terminal.
     // We can use this to check your answer
     snprintf(buf, sizeof(buf), format_str, a);
 
@@ -125,6 +125,8 @@ TEST (C_Exercise, array_sum) {
     /********************* MAKE YOUR CHANGES HERE *************************/
     FAIL() << TEST_NAME  << " is not yet implemented" ;
 
+    // Use a loop to sum up all the elements of the array
+
     /**********************************************************************/
 
     ASSERT_EQ(sum, 15);
@@ -140,6 +142,8 @@ TEST (C_Exercise, array_2d_sum) {
 
     /********************* MAKE YOUR CHANGES HERE *************************/
     FAIL() << TEST_NAME  << " is not yet implemented" ;
+
+    // Use nested loops to sum up all the elements of the array
 
     /**********************************************************************/
 
